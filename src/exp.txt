@@ -1,0 +1,15 @@
+while(count < 6)
+{
+      play = bas - 1;      
+}
+d = 3.14159
+tmp = 1.234.56
+if i=0 then   n++; 
+a <= 3b %);
+printf();
+scanf(,);
+312321
+312
+312
+3
+123 %^
