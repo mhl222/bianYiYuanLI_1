@@ -9,6 +9,6 @@ public class Word {
         this.wCol = wCol;
         this.wType = wType;
         this.wSelf = wSelf;
-
+        LexicalAnalyzer.col++;
     }
 }

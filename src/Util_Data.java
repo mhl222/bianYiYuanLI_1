@@ -18,9 +18,6 @@ public class Util_Data {
     Map<Integer,String>  identifier;                         //标识符表
     Map<Integer,String>  constant;                           //常数表
 
-    public static void main(String[] args) {
-        Util_Data.readFile();
-    }
     /**
      * 读取关键字表、分界符表、算术运算符表、逻辑运算符表
      *
@@ -87,7 +84,8 @@ public class Util_Data {
             tmp = "(" + word.wType + "," + word.wSelf + ")";
         }
         String s = "(" + word.wRow + "," + word.wCol + ")";
-        System.out.printf("%-10s%-10s%-10s%-10s", word.wSelf, tmp, str, s);
+        System.out.printf("" +
+                "%-15s%-15s%-15s%-15s\n", word.wSelf, tmp, str, s);
 
     }
     static void printIdentifier(){
@@ -96,5 +94,6 @@ public class Util_Data {
     static void printConstant(){
         System.out.println(" +++++++++++++  常数表  ++++++++++++");
     }
+
 }
 

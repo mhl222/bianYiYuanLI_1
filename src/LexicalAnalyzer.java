@@ -1,102 +1,95 @@
 public class LexicalAnalyzer {
     static int row = 1;
-    static int col = 0;
+    static int col = 1;
     static int i = 0;
     static String token;
     static char ch;
-    Word analyzer(){
-
-        String arr = "";
-        for(int i = 0;i< chars.length;i++) {
-            ch = chars[i];
-            arr = "";
-            if(ch == ' '||ch == '\t'||ch == '\n'||ch == '\r'){}
-            else if(isLetter(ch)){
-                while(isLetter(ch)||isDigit(ch)){
-                    arr += ch;
-                    ch = chars[++i];
-                }
-                //回退一个字符
-                i--;
-                if(isKey(arr)){
-                    //关键字
-                    System.out.println(arr+"\t4"+"\t关键字");
-                }
-                else{
-                    //标识符
-                    System.out.println(arr+"\t4"+"\t标识符");
-                }
-            }
-            else if(isDigit(ch)||(ch == '.'))
-            {
-                while(isDigit(ch)||(ch == '.'&&isDigit(chars[++i])))
-                {
-                    if(ch == '.') i--;
-                    arr = arr + ch;
-                    ch = chars[++i];
-                }
-                //属于无符号常数
-                System.out.println(arr+"\t5"+"\t常数");
-            }
-            else switch(ch){
-                    //运算符
-                    case '+':System.out.println(ch+"\t2"+"\t运算符");break;
-                    case '-':System.out.println(ch+"\t2"+"\t运算符");break;
-                    case '*':System.out.println(ch+"\t2"+"\t运算符");break;
-                    case '/':System.out.println(ch+"\t2"+"\t运算符");break;
-                    //分界符
-                    case '(':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case ')':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case '[':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case ']':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case ';':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case '{':System.out.println(ch+"\t3"+"\t分界符");break;
-                    case '}':System.out.println(ch+"\t3"+"\t分界符");break;
-                    //运算符
-                    case '=':{
-                        ch = chars[++i];
-                        if(ch == '=')System.out.println("=="+"\t2"+"\t运算符");
-                        else {
-                            System.out.println("="+"\t2"+"\t运算符");
-                            i--;
-                        }
-                    }break;
-                    case ':':{
-                        ch = chars[++i];
-                        if(ch == '=')System.out.println(":="+"\t2"+"\t运算符");
-                        else {
-                            System.out.println(":"+"\t2"+"\t运算符");
-                            i--;
-                        }
-                    }break;
-                    case '>':{
-                        ch = chars[++i];
-                        if(ch == '=')System.out.println(">="+"\t2"+"\t运算符");
-                        else {
-                            System.out.println(">"+"\t2"+"\t运算符");
-                            i--;
-                        }
-                    }break;
-                    case '<':{
-                        ch = chars[++i];
-                        if(ch == '=')System.out.println("<="+"\t2"+"\t运算符");
-                        else {
-                            System.out.println("<"+"\t2"+"\t运算符");
-                            i--;
-                        }
-                    }break;
-                    //无识别
-                    default: System.out.println(ch+"\t6"+"\t无识别符");
-                }
-        }
-        return null;
-    }
-    void getChar(){//读入一个字符
+    static Word analyzer(){
         ch = Util_Data.inBuffer[i];
-        i++;
+        token="";
+        while(ch == ' '){
+            i++;
+            ch = Util_Data.inBuffer[i];
+        }
+        if( ch == '\n'){
+            row++;
+            i++;
+            ch = Util_Data.inBuffer[i];
+            col = 1;
+        }
+        if(isLetter()){
+            while(isLetter()||isDigit(ch)){
+                token += ch;
+                ch = Util_Data.inBuffer[++i];
+            }
+//            //回退一个字符
+//            retract();
+            if(isKey()){
+                //关键字
+                return new Word(row,col,1,token);
+            }
+            else{
+                //标识
+                return new Word(row,col,6,token);
+            }
+        }
+        else if(isDigit(ch)||(ch == '.'))
+        {
+            while(isDigit(ch)||(ch == '.'&&isDigit(Util_Data.inBuffer[++i])))
+            {
+                if(ch == '.') i--;
+                token += ch;
+                ch = Util_Data.inBuffer[++i];
+            }
+//            //回退一个字符
+//            retract();
+            //属于无符号常数
+            return new Word(row,col,5,token);
+        }
+        else if(isDelimiter()) {
+            token += ch;
+            i++;
+            //分界符
+            return new Word(row,col,2,token);
+        }
+        else if(isArithmeticOperation(ch)){
+            int times=0;
+            while (isArithmeticOperation(Util_Data.inBuffer[i])){
+                token += ch;
+                i++;
+                times++;
+
+            }
+         //   retract();
+            if(times>1)
+                return new Word(row,col,-1,token);
+            else
+                return new Word(row,col,3,token);
+        }else if(ch == '<' || ch == '>' || ch == '='){
+
+            token+=ch;
+            ch=Util_Data.inBuffer[++i];
+            token+=Util_Data.inBuffer[++i];
+            if(!islogicalOperator()){
+                token=token.substring(0,token.length()-1);
+            }
+            return new Word(row,col,4,token);
+        }
+        else
+        {
+            i++;
+            token+=ch;
+            return new Word(row,col,-1,token);
+        }
+
+    }
+
+   static void retract(){
+       i--;
+       ch=' ';
     }
     //判断是否是关键字
-    boolean isKey()
+    static boolean isKey()
     {
         for(int i = 0;i < Util_Data.keyWord.length;i++)
         {
@@ -106,7 +99,7 @@ public class LexicalAnalyzer {
         return false;
     }
     //判断是否是字母
-    boolean isLetter()
+    static boolean isLetter()
     {
         if((ch >= 'a' && ch <= 'z')||(ch >= 'A' && ch <= 'Z'))
             return true;
@@ -114,12 +107,49 @@ public class LexicalAnalyzer {
             return false;
     }
     //判断是否是数字
-    boolean isDigit()
+    static boolean isDigit(char ch)
     {
         if(ch >= '0' && ch <= '9')
             return true;
         else
             return false;
     }
+    //判断是否为分界符
+    static boolean isDelimiter(){
+        switch(ch) {
+            //分界符
+            case ',':
+            case '(':
+            case ')':
+            case '[':
+            case ']':
+            case ';':
+            case '{':
+            case '}':
+                return true;
+            default:
+                return false;
+        }
+    }
+    //判断是否为算数运算符
+    static boolean isArithmeticOperation(char ch) {
+        String temp =""+ch;
+        for (String ach : Util_Data.arithmeticOperation){
+            if(ach.contains(temp))
+                return true;
+        }
+        return false;
+    }
+    //判断是否为逻辑运算符
+    static boolean islogicalOperator(){
+        String temp =""+token;
+        for (String ach : Util_Data.logicalOperator){
+            if(ach.contains(temp))
+                return true;
+        }
+        return false;
+    }
+
+
 
 }

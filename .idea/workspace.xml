@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="784f6dab-f5a3-4983-83d5-1862388b34eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../web_test/web_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/idea_space_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idea-space.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/ReceiveThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/SendTread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/deep_io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/file/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/file/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo2$Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/Demo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/FileUtil1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/idea-space/io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/JDBC/demo/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/JDBC/demo/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/JDBC/login/login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/JDBC/login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/JDBC/login/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/deep_io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/file/demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/file/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/TCP_Echo_Bio/EchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/TCP_Echo_Bio/EchoSever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/TCP_Echo_Nio/EchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/TCP_Echo_Nio/EchoSever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/Udp/UDPclient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/Udp/UDPsever.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/internet/demo/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/Demo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/io/demo/main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/编译原理实验一/LexicalAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/编译原理实验一/LexicalAnalyzer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/编译原理实验一/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/编译原理实验一/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/编译原理实验一/Util_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/编译原理实验一/Util_Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/编译原理实验一/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/编译原理实验一/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LexicalAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LexicalAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\孟哥\Desktop\java\idea-space\编译原理实验一\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iSae3deuhWCp2OLShw3OnsDL4L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\孟哥\Desktop\java\idea-space\编译原理实验一\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="编译原理实验一" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Util_Data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Util_Data" />
+      <module name="编译原理实验一" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Util_Data" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784f6dab-f5a3-4983-83d5-1862388b34eb" name="Default Changelist" comment="" />
+      <created>1601903538989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601903538989</updated>
+      <workItem from="1601903541905" duration="12856000" />
+      <workItem from="1601960110604" duration="9265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1292" y="367" key="#com.intellij.ide.util.MemberChooser" timestamp="1601916616205">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1292" y="367" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601916616204" />
+    <state x="337" y="154" key="CommitChangelistDialog2" timestamp="1601921336529">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="337" y="154" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1601921336529" />
+    <state x="630" y="195" key="FileChooserDialogImpl" timestamp="1601903631781">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="630" y="195" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1601903631781" />
+    <state x="705" y="348" key="Github.ShareDialog" timestamp="1601903767713">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="705" y="348" key="Github.ShareDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601903767713" />
+    <state x="577" y="159" key="Github.UntrackedFilesDialog" timestamp="1601903775317">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="577" y="159" key="Github.UntrackedFilesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1601903775317" />
+    <state width="1179" height="405" key="GridCell.Tab.0.bottom" timestamp="1601969455619">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="405" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601969455619" />
+    <state width="1179" height="405" key="GridCell.Tab.0.center" timestamp="1601969455619">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="405" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601969455619" />
+    <state width="1179" height="405" key="GridCell.Tab.0.left" timestamp="1601969455619">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="405" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601969455619" />
+    <state width="1179" height="405" key="GridCell.Tab.0.right" timestamp="1601969455619">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="405" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601969455619" />
+    <state width="1179" height="376" key="GridCell.Tab.1.bottom" timestamp="1601969421199">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1601969421199" />
+    <state width="1179" height="376" key="GridCell.Tab.1.center" timestamp="1601969421199">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1601969421199" />
+    <state width="1179" height="376" key="GridCell.Tab.1.left" timestamp="1601969421199">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1601969421199" />
+    <state width="1179" height="376" key="GridCell.Tab.1.right" timestamp="1601969421199">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1179" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1601969421199" />
+    <state x="370" y="78" key="SettingsEditor" timestamp="1601911721789">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="370" y="78" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1601911721789" />
+    <state x="374" y="293" key="Vcs.Push.Dialog.v2" timestamp="1601921348489">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="374" y="293" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601921348489" />
+    <state x="717" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601911278006">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="717" y="86" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1601911278006" />
+    <state x="509" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601904328004">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="509" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1601904328004" />
+    <state x="681" y="259" key="run.anything.popup" timestamp="1601911469213">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1601911469213" />
+    <state x="802" y="360" width="672" height="678" key="search.everywhere.popup" timestamp="1601910699815">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="802" y="360" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1601910699815" />
+  </component>
+</project>
